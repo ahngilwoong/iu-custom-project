@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Delevery Mate</string>
+    <string name="user_info">사용자 인터페이스 입니다. \n 반갑습니다.</string>
+    <string name="frag4_info">신체면에서 나타나는 스트레스\n테스트 입니다. \n0. 해당없음 1. 가끔 느낌 2. 자주 느낌 3. 항상 느낌</string>
+    <string name="frag5_info">주파수를 사용한 청력테스트\n최종적으로 들리는 주파수 \n한 곳에 체크 해주세요.</string>
+    <string name="frag_2">8개 사진을 이용한 색맹, 색약 시력 테스트 입니다.</string>
+    <string name="frag_btn1">완 료</string>
+    <string name="frag_btn3">전환3</string>
+    <string name="frag_test1">[ 시력 테스트 ] \n아직 테스트 전 입니다. \n테스트 후 결과가 표시됩니다.</string>
+    <string name="frag_test2">[ 청력 테스트 ] \n아직 테스트 전 입니다. \n테스트 후 결과가 표시됩니다.</string>
+    <string name="frag_test3">[ 심리 테스트 ] \n아직 테스트 전 입니다. \n테스트 후 결과가 표시됩니다.</string>
+</resources>

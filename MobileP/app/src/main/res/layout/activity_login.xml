@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_login_scene"
+    tools:context=".activityAll.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738"
+        app:srcCompat="@drawable/title"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/fixID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sb"
+            android:text="이메일 주소"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <EditText
+            android:id="@+id/n1"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/na"
+            android:hint="학번"
+            android:textSize="25dp"
+            android:inputType="textPersonName"
+            android:padding="25dp"
+            android:privateImeOptions="defaultInputmode=korean"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fixPW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sb"
+            android:text="   비밀번호 "
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="124dp" />
+        <EditText
+            android:id="@+id/n2"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:fontFamily="@font/na"
+            android:hint="비밀번호"
+            android:textSize="25dp"
+            android:inputType="textPersonName"
+            android:padding="25dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout0"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="196dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custombtn"
+            android:fontFamily="@font/four"
+            android:padding="13dp"
+            android:text="L o g i n"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/join_btn"
+            android:layout_width="217dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custombtn"
+            android:fontFamily="@font/four"
+            android:padding="13dp"
+            android:text="R e g i s t e r "
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

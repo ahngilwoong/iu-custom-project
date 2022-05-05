@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".activityAll.Frag3">
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombtn"
+        android:fontFamily="@font/one"
+        android:padding="11dp"
+        android:text="오늘의 늘빛관 학생식당 다인 메뉴"
+        android:textSize="26dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textV2"
+            android:layout_width="53dp"
+            android:layout_height="51dp"
+            android:fontFamily="@font/bm1"
+            android:text=""
+            android:textSize="21dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textA"
+                android:layout_width="66dp"
+                android:layout_height="153dp"
+                android:fontFamily="@font/bm1"
+                android:text="\n\n\nA 메뉴"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/Amain"
+                android:layout_width="333dp"
+                android:layout_height="153dp"
+                android:fontFamily="@font/bm1"
+                android:text=""
+                android:textSize="19sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/textB"
+                android:layout_width="66dp"
+                android:layout_height="153dp"
+                android:fontFamily="@font/bm1"
+                android:text="\n\n\nB 메뉴"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/Bmain"
+                android:layout_width="333dp"
+                android:layout_height="153dp"
+                android:fontFamily="@font/bm1"
+                android:text=""
+                android:textSize="19sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textC"
+                android:layout_width="66dp"
+                android:layout_height="153dp"
+                android:fontFamily="@font/bm1"
+                android:text="\n\n\nC 메뉴"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/Cmain"
+                android:layout_width="333dp"
+                android:layout_height="153dp"
+                android:fontFamily="@font/bm1"
+                android:text=""
+                android:textSize="19sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+
+</LinearLayout>

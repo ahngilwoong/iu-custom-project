@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/tab0"
+        app:showAsAction="ifRoom"
+        android:title="메이트 찾기"
+        android:textColor="@color/black"
+        android:icon="@drawable/mate"/>
+
+    <item android:id="@+id/tab1"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="채팅"
+        android:textColor="@color/black"
+        android:icon="@drawable/chat"/>
+
+    <item android:id="@+id/tab2"
+        app:showAsAction="ifRoom"
+        android:title="학식 메뉴"
+        android:textColor="@color/black"
+        android:icon="@drawable/men"/>
+
+    <item android:id="@+id/tab3"
+        app:showAsAction="ifRoom"
+        android:title="내 정보"
+        android:textColor="@color/colorAccent"
+        android:icon="@drawable/dinner"/>
+
+
+</menu>
